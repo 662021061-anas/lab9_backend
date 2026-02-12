@@ -4,8 +4,8 @@ services:
     container_name: pg-books
     restart: always
     environment:
-      POSTGRES_USER: 662021048
-      POSTGRES_PASSWORD: 123456
+      POSTGRES_USER: proanas
+      POSTGRES_PASSWORD: 662021061
       POSTGRES_DB: bookdb
     ports:
       - "5432:5432"
